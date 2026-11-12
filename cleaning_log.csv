@@ -1,0 +1,3 @@
+file,rows_before,removed_missing_pm25,removed_pm25_le_0,removed_pm25_ge_500,removed_total,rows_after,pct_removed
+pm25.csv,88041,0,2093,19,2112,85929,2.4
+combined_gee_pm25.csv,41718,0,727,8,735,40983,1.76
