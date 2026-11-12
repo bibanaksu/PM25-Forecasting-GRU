@@ -1,9 +1,0 @@
-Cleaning Operation,Result
-Original dataset,41718.0
-Missing PM2.5 values,0.0
-Non-numeric PM2.5 values,0.0
-PM2.5 values <= 0,727.0
-PM2.5 values >= 500,8.0
-Total rows removed,735.0
-Final cleaned dataset,40983.0
-Rows retained (%),98.24
