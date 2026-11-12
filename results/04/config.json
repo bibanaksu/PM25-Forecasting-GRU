@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "window_days": 7,
+  "min_obs_in_window": 3,
+  "min_station_obs": 150,
+  "test_start": "2025-01-01",
+  "forecast_horizon_days": 1,
+  "temporal_gap_days": 1,
+  "n_samples": 21248,
+  "n_dev": 17891,
+  "n_test": 3357,
+  "n_stations": 61,
+  "input_file": "combined_gee_pm25_clean.csv"
+}

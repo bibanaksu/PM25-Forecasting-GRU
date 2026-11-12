@@ -1,0 +1,36 @@
+{
+  "sequence_features": [
+    "temperature_celsius",
+    "pressure_mb",
+    "wind_u",
+    "wind_v",
+    "wind_speed",
+    "NO2",
+    "CO",
+    "O3",
+    "AOD",
+    "pm25_lag",
+    "miss_NO2",
+    "miss_CO",
+    "miss_O3",
+    "obs"
+  ],
+  "static_features": [
+    "doy_sin_target",
+    "doy_cos_target"
+  ],
+  "window": 7,
+  "continuous_idx": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "obs_idx": 13
+}

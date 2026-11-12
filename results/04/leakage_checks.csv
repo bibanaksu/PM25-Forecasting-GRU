@@ -1,0 +1,16 @@
+scheme,fold,no_train_val_overlap,no_test_in_fold,temporal_gap_days,train_strictly_before_val,no_station_overlap
+temporal,0,True,True,2.0,True,
+temporal,1,True,True,2.0,True,
+temporal,2,True,True,2.0,True,
+temporal,3,True,True,2.0,True,
+temporal,4,True,True,2.0,True,
+spatial,0,True,True,,,True
+spatial,1,True,True,,,True
+spatial,2,True,True,,,True
+spatial,3,True,True,,,True
+spatial,4,True,True,,,True
+standard,0,True,True,,,
+standard,1,True,True,,,
+standard,2,True,True,,,
+standard,3,True,True,,,
+standard,4,True,True,,,

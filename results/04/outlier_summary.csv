@@ -1,0 +1,15 @@
+,value
+n_dev,31286.0
+mean,9.317
+median,7.733
+std,10.344
+skewness,19.113
+kurtosis,666.646
+q1,4.542
+q3,12.0
+iqr_upper_fence,23.188
+n_above_fence,1117.0
+pct_above_fence,3.57
+pct_above_25,2.704
+pct_above_50,0.291
+max,484.982
