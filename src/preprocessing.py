@@ -74,13 +74,13 @@ class FoldPreprocessor:
         return Xi.astype(np.float32), S[idx].astype(np.float32)
 
 
-def load_part4(out_dir="results/04"):
+def load_part4(out_dir="results/04", folds_dir="folds"):
     # Load everything produced by the Part 4 notebook.
     X = np.load(f"{out_dir}/X_raw.npy")
     S = np.load(f"{out_dir}/X_static.npy")
     y = np.load(f"{out_dir}/y.npy")
     meta = pd.read_csv(f"{out_dir}/meta.csv", parse_dates=["target_date"])
-    folds = {k: json.load(open(f"{out_dir}/folds_{k}.json"))["folds"]
+    folds = {k: json.load(open(f"{folds_dir}/folds_{k}.json"))["folds"]
              for k in ["temporal", "spatial", "standard"]}
-    test_idx = json.load(open(f"{out_dir}/test_idx.json"))["idx"]
+    test_idx = json.load(open(f"{folds_dir}/test_idx.json"))["idx"]
     return X, S, y, meta, folds, test_idx
