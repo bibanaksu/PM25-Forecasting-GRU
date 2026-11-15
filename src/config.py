@@ -15,6 +15,8 @@ MIN_STATION_OBS = 150       # minimum observations per station in the developmen
 TEST_START = pd.Timestamp("2025-01-01")   # final future test period (never used in any fold)
 OUT_DIR = "results/04"
 os.makedirs(OUT_DIR, exist_ok=True)
+FOLDS_DIR = "folds"         # fold JSON files (temporal / spatial / standard) + test_idx.json
+os.makedirs(FOLDS_DIR, exist_ok=True)
 
 CANDIDATES = [
     "Files/combined_gee_pm25_clean.csv",
